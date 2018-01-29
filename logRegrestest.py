@@ -9,7 +9,8 @@ dataArr, labelMat = logRegres.loadDataSet()
 #随机梯度上升
 #weights = logRegres.stocGradAscent0(array(dataArr), labelMat)
 #改进的随机梯度上升算法
-weights = logRegres.stocGradAscent1(array(dataArr), labelMat)
-print(weights)
+#weights = logRegres.stocGradAscent1(array(dataArr), labelMat)
+#print(weights)
 
-logRegres.plotBestFit(matrix.getA(weights))
+#logRegres.plotBestFit(matrix.getA(weights))
+logRegres.multiTest()
